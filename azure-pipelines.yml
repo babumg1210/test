@@ -21,7 +21,7 @@ steps:
 
 - script: |
     echo Installing dependencies...
-    pip install -r boto3
+    pip install boto3 -t .
   displayName: 'Install dependencies'
 
 # Step 2: Package the Lambda function (similar to the 'build' phase in CodeBuild)
